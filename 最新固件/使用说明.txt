@@ -1,0 +1,4 @@
+canbus固件升级zcan固件，可以直接在canviewer软件里面通过固件升级方式进行升级。
+
+zcan固件升级canbus时，需要用zadig.exe软件，菜单options->list all devices,在下拉框中选择设备“USBCAN-UC12”，
+将驱动zlgcan替换为winusb。然后重新拔插CAN模块。再用canviewer软件，选择canbus固件进行升级。

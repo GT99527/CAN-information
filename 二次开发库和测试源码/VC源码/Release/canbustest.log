@@ -1,0 +1,28 @@
+﻿生成启动时间为 2023/5/31 21:17:59。
+     1>项目“G:\can\dev_scr\VC源码\canbustest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\canbustest.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\canbustest.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt canbustest.cpp canbustestDlg.cpp
+         canbustest.cpp
+         canbustestDlg.cpp
+     1>canbustestDlg.cpp(151): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>canbustestDlg.cpp(152): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>canbustestDlg.cpp(264): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\canbustest.res" canbustest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\can\dev_scr\VC源码\Release\canbustest.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"G:\can\dev_scr\VC源码\Release\canbustest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\can\dev_scr\VC源码\Release\canbustest.lib" /MACHINE:X86 /SAFESEH Release\canbustest.res
+         Release\canbustest.obj
+         Release\canbustestDlg.obj
+         Release\stdafx.obj
+         ucanbus.lib
+         正在生成代码
+         All 200 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         canbustest.vcxproj -> G:\can\dev_scr\VC源码\Release\canbustest.exe
+     1>已完成生成项目“G:\can\dev_scr\VC源码\canbustest.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.38

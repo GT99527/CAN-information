@@ -1,0 +1,3 @@
+
+将cantype.ini和ControlCAN.dll拷贝到软件安装目录，覆盖。
+启动can，设备类型项选择“USBCAN1”，索引号选择“0”或“1”，即可正常使用。

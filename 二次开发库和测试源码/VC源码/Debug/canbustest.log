@@ -1,0 +1,15 @@
+﻿生成启动时间为 2022/8/2 23:54:38。
+     1>项目“E:\canbusexample\canbustest\canbustest.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         canbustest.vcxproj -> E:\canbusexample\canbustest\Debug\canbustest.exe
+       PostBuildEvent:
+         editbin /SUBSYSTEM:CONSOLE E:\canbusexample\canbustest\Debug\canbustest.exe
+         :VCEnd
+         Microsoft (R) COFF/PE Editor Version 14.00.23026.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+     1>已完成生成项目“E:\canbusexample\canbustest\canbustest.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.07

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SignalGen</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <property name="leftMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>5</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>选择通道：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="canpot">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_34">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>波特率：KBd</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="baudrate">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <item>
+            <property name="text">
+             <string>1000</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>900</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>800</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>666</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>600</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>500</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>400</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>250</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>200</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>125</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>100</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>80</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>50</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>40</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>20</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>10</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>工作模式：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="wkmode">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <item>
+            <property name="text">
+             <string>正常模式</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>环回模式</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>静默模式</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>静默环回模式</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <property name="leftMargin">
+          <number>5</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>5</number>
+         </property>
+         <property name="bottomMargin">
+          <number>5</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="awum">
+           <property name="text">
+            <string>离线唤醒</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="nart">
+           <property name="text">
+            <string>自动重传</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="inres">
+           <property name="text">
+            <string>接通电阻</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="readpar">
+           <property name="text">
+            <string>复位</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="setpar">
+           <property name="text">
+            <string>设置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="opencan">
+           <property name="text">
+            <string>打开</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>清空列表</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,9 @@
+﻿
+此libusb库以添加了can模块的操作函数。使用时加载库，包含“canbus.h”即可调用
+
+将libusb解压到/usr/local/lib/目录下面
+
+将测试源码目录QT_thread 复制到 工作目录下面（Ubuntu系统）。使用Qt打开工程，编译，运行，即可操作CAN模块。
+注意：root用户打开qt软件可直接读写usbcan设备，非root用户，需要修改usbcan模块的操作权限。
+
+

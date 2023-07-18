@@ -1,0 +1,19 @@
+﻿生成启动时间为 2023/5/31 21:17:23。
+     1>项目“G:\can\dev_scr\VC源码\canbustest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\canbustest.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\canbustest.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt canbustest.cpp canbustestDlg.cpp
+         canbustestDlg.cpp
+     1>g:\can\dev_scr\vc源码\canbustestdlg.cpp(151): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>g:\can\dev_scr\vc源码\canbustestdlg.cpp(152): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>g:\can\dev_scr\vc源码\canbustestdlg.cpp(211): error C2660: “CAN_Transmit”: 函数不接受 3 个参数
+     1>g:\can\dev_scr\vc源码\canbustestdlg.cpp(264): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>g:\can\dev_scr\vc源码\canbustestdlg.cpp(293): warning C4244: “=”: 从“INT_PTR”转换到“int”，可能丢失数据
+         canbustest.cpp
+         正在生成代码...
+     1>已完成生成项目“G:\can\dev_scr\VC源码\canbustest.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.45

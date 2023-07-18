@@ -1,0 +1,10 @@
+
+如果电脑是winxp，win7系统，请下载windows驱动。
+只是简单收发分析can数据，请下载canviewer软件。
+要使用dpc，canopen，请下载zlg软件
+要二次开发，请下载二次开发库和测试源码。
+Linux系统开发，请下载linux驱动和测试源码。
+要进行ubuntu开发，请下载ubuntu系统目录。
+
+最新固件目录里面会有测试稳定的最新固件，不定期更新。
+您可以用canviewer软件进行固件升级。

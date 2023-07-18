@@ -1,0 +1,14 @@
+﻿
+
+libcanbus未包含libusb函数。要配合libusb库使用。
+
+使用时先加载libcanbus库，再加载libusb库。
+将libcanbus解压到/usr/local/lib/目录下面
+
+libcanbus.a为静态库，libcanbus.so为共享库
+
+如果系统中没有libusb，请将libusb-1.0解压到/usr/local/lib/。
+
+注意：root用户打开qt软件可直接读写usbcan设备，非root用户，需要修改usbcan模块的操作权限。
+
+

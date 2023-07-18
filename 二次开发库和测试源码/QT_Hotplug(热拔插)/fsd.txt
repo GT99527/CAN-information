@@ -1,0 +1,14 @@
+fsafaffafaeafaefafeafafea
+看到开发及
+on_opencan_clicked()
+{
+    char buf[16];
+    int ret;
+    Can_Msg  tmsg;
+    qDebug()<<"on_opencan_clicked";
+    QDir *dir = new QDir;
+    QStringList dtlist;
+    bool exist = dir->exists("D:/tmpDta");
+    if(!exist) {dir->mkdir("D:/tmpDta");}
+    if(QFile::remove("D:/tmpDta/123.txt") == false)
+        qDebug()<<"err r
